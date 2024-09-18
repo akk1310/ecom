@@ -1,8 +1,10 @@
 /* eslint-disable react/forbid-prop-types */
+import RPI from "react-phone-input-2";
+const PhoneInput = RPI.default ? RPI.default : RPI;
 import { useField } from 'formik';
 import PropType from 'prop-types';
 import React from 'react';
-import PhoneInput from 'react-phone-input-2';
+// import PhoneInput from 'react-phone-input-2';
 
 const CustomMobileInput = (props) => {
   const [field, meta, helpers] = useField(props);

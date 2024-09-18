@@ -2,12 +2,13 @@ import { useBasket } from '@/hooks';
 import PropType from 'prop-types';
 import React from 'react';
 import ProductItem from './ProductItem';
+// import './prod.css';
 
 const ProductGrid = ({ products }) => {
   const { addToBasket, isItemOnBasket } = useBasket();
 
   return (
-    <div className="product-grid">
+    <div className="pro product-grid">
       {products.length === 0 ? new Array(12).fill({}).map((product, index) => (
         <ProductItem
           // eslint-disable-next-line react/no-array-index-key

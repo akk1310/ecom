@@ -5,7 +5,7 @@ import { FEATURED_PRODUCTS, RECOMMENDED_PRODUCTS, SHOP } from '@/constants/route
 import {
   useDocumentTitle, useFeaturedProducts, useRecommendedProducts, useScrollTop
 } from '@/hooks';
-import bannerImg from '@/images/banner-girl.png';
+import bannerImg from '@/images/banner1.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -33,13 +33,12 @@ const Home = () => {
         <div className="banner">
           <div className="banner-desc">
             <h1 className="text-thin">
-              <strong>See</strong>
-              &nbsp;everything with&nbsp;
-              <strong>Clarity</strong>
+              <strong>Renew</strong>
+              &nbsp;Your Wardrobe,&nbsp;
+              <strong>Sustainably"</strong>
             </h1>
             <p>
-              Buying eyewear should leave you happy and good-looking, with money in your pocket.
-              Glasses, sunglasses, and contacts—we’ve got your eyes covered.
+            "Discover a world of stylish, sustainable fashion at Rental.com. We offer a curated selection of high-quality, second-hand clothes that let you express your unique style while making a positive impact on the planet. Enjoy affordable fashion thats kind to both your wallet and the environment. Rent today and embrace a wardrobe thats as eco-friendly as it is chic!"
             </p>
             <br />
             <Link to={SHOP} className="button">

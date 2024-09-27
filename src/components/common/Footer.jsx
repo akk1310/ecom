@@ -15,10 +15,31 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-col-1">
         <strong>
-          <span>
+{/*           <span>
             Developed by
             {' '}
+              <div>
+                <div>Muhammad Taha Nandgaonkar </div>
+                <div>Muhammad Taha Nandgaonkar </div>
+                <div>Muhammad Taha Nandgaonkar </div>
+                <div>Muhammad Taha Nandgaonkar </div>
+                
+              </div>
+              
+            
             <a href="https://github.com/akk1310">@Muhammad Taha Nandgaonkar and team</a>
+          </span> */}
+          <span>
+            {/* Developed by */}
+            {' '}
+            
+            {/* <a href="https://github.com/akk1310">@Adnan Kundlik and team</a> */}
+            <div>
+              <div  >Developed by:</div>
+              <div>Muhammad Taha Nandgaonkar</div>
+              <div>Affan Deshmukh</div>
+              <div>Saurav Wadkar </div>
+            </div>
           </span>
         </strong>
       </div>

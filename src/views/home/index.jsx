@@ -38,7 +38,7 @@ const Home = () => {
               <strong>Sustainably"</strong>
             </h1>
             <p>
-            "Discover a world of stylish, sustainable fashion at Rental.com. We offer a curated selection of high-quality, second-hand clothes that let you express your unique style while making a positive impact on the planet. Enjoy affordable fashion thats kind to both your wallet and the environment. Rent today and embrace a wardrobe thats as eco-friendly as it is chic!"
+            "Discover a world of stylish, sustainable fashion at ReviveWear.com, We offer a curated selection of high-quality, second-hand clothes that let you express your unique style while making a positive impact on the planet. Enjoy affordable fashion thats kind to both your wallet and the environment. Rent today and embrace a wardrobe thats as eco-friendly as it is chic!"
             </p>
             <br />
             <Link to={SHOP} className="button">

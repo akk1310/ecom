@@ -56,7 +56,7 @@ const ProductItem = ({ product, isItemOnBasket, addToBasket }) => {
             </p>
             <h4 className="product-card-price">
               {product.price ? displayMoney(product.price) : <Skeleton width={40} />}
-              [Available for 15 days]
+             
             </h4>
           </div>
         </div>

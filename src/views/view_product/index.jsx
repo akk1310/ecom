@@ -130,7 +130,8 @@ const ViewProduct = () => {
                   />
                 </div>
               )}
-              <h1>{displayMoney(product.price)}</h1>
+              <h1>{displayMoney(product.price)}</h1> 
+              <h3>[Note: The rental duration for this item is 15 days.]</h3>
               <div className="product-modal-action">
                 <button
                   className={`button button-small ${isItemOnBasket(product.id) ? 'button-border button-border-gray' : ''}`}

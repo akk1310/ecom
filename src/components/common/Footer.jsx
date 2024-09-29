@@ -34,12 +34,18 @@ const Footer = () => {
             {' '}
             
             {/* <a href="https://github.com/akk1310">@Adnan Kundlik and team</a> */}
-            <div>
+{/*             <div>
               <div  >Developed by:</div>
               <div>Muhammad Taha Nandgaonkar</div>
               <div>Affan Deshmukh</div>
               <div>Saurav Wadkar </div>
-            </div>
+            </div> */}
+              <div>
+              <div  >Developed by:</div>
+              <div>Adnan Kundlik</div>
+              <div>Grishma Naik</div>
+              <div>Azeeem Abdul </div>
+            </div> 
           </span>
         </strong>
       </div>
